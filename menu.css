@@ -310,3 +310,68 @@ height: 20dvh;
     display: flex;
     justify-content: space-around;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropbtn {
+        padding: 10px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .heading h3 {
+        font-size: 18px;
+    }
+
+    .popdishes {
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish {
+        width: 90%;
+    }
+
+    .umm {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .page {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .number {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .end {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #put {
+        width: 90%;
+    }
+}

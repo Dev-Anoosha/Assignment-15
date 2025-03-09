@@ -356,3 +356,65 @@ section{
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 768px) {
+    .ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown {
+        display: block;
+        text-align: center;
+    }
+
+    .dropbtn {
+        display: block;
+        padding: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 90%;
+        text-align: center;
+        border-right: none;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+    }
+
+    .section-1 iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-body {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form input, .message, .form button {
+        width: 100%;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex, .flex2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bigger {
+        justify-content: center;
+    }
+}
